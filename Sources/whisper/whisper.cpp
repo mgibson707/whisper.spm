@@ -3100,7 +3100,7 @@ static void whisper_process_logits(
             for(auto itr : non_speech_tokens) {
                 logits[itr] = -INFINITY;
             }
-            printf("\nSuppressing non-speech tokens");
+            //printf("\nSuppressing non-speech tokens");
         }
 
         // suppress <|notimestamps|> token
