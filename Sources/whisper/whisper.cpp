@@ -2933,6 +2933,8 @@ struct whisper_full_params whisper_full_default_params(enum whisper_sampling_str
         /*.language         =*/ "en",
 
         /*.suppress_blank   =*/ true,
+        /*.suppress_suppress_non_speech_tokens   =*/ false, //testing
+
 
         /*.temperature      =*/  0.0f,
         /*.max_initial_ts   =*/  1.0f,
